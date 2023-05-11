@@ -24,7 +24,7 @@ const ShopAll = ({ data }) => {
   const details = data?.item;
   return (
     <Layout>
-      <div className="h-screen m-auto p-4 grid grid-cols-[repeat(auto-fill,_minmax(10rem,_1fr))] gap-2">
+      <div className="h-screen m-auto p-4 grid grid-cols-[repeat(auto-fill,_minmax(15rem,_1fr))] gap-2">
         {[details]?.map((obj) => (
           <div className="text-center" key={obj.id}>
             <Link className="text-left text-2xl" href="/shop">
