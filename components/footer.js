@@ -1,6 +1,6 @@
 const footer = () => {
   return (
-    <footer class="bg-gray-800 text-white p-4">
+    <footer className="bg-gray-800 text-white p-4">
       <p>&copy; 2023 Fortnite</p>
     </footer>
   );
