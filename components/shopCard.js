@@ -10,7 +10,7 @@ const ShopCard = () => {
           <Link href={`shop/${obj.mainId}`} className="relative">
             <img className="w-full" src={obj.granted[0].images.background} alt={obj.section.name} />
             <div className="z-10 absolute bottom-0 shadow-md backdrop-filter backdrop-blur-lg backdrop-saturate-150 p-2 absolute text-center w-full ">
-              <h3 className="uppercase font-bold">{obj.displayName}</h3>
+              <h3 className="text-base uppercase font-bold">{obj.displayName}</h3>
             </div>
           </Link>
           <div className="p-2 w-full bg-gray-900 align-center justify-center flex">

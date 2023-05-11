@@ -3,7 +3,7 @@ import { useData } from '@/hooks/useData';
 const Modes = () => {
   const { data } = useData('https://fortniteapi.io/v1/game/modes?lang=ru');
   return (
-    <div className="p-4 grid grid-cols-[repeat(auto-fill,_minmax(25rem,_1fr))] gap-2">
+    <div className="p-4 grid grid-cols-[repeat(auto-fill,_minmax(20rem,_1fr))] gap-2">
       {data?.modes?.map((obj) =>
         obj?.enabled == true ? (
           <div className="relative bg-gray-900" key={obj.id}>
