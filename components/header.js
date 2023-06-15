@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header className="flex items-center justify-between bg-gray-800 text-white p-4">
       <Link href="/" className="font-bold text-xl">
-        Logo
+        FortniteStats
       </Link>
       <nav>
         <ul className="flex space-x-4 items-center">
