@@ -3,7 +3,7 @@ import Link from 'next/link';
 const Header = () => {
   return (
     <header className="flex items-center justify-between bg-gray-800 text-white p-4">
-      <Link href="/" className="font-bold text-xl">
+      <Link href="/shop" className="font-bold text-xl">
         FortniteStats
       </Link>
       <nav>
